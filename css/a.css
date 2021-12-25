@@ -1,0 +1,87 @@
+:root{
+    --maincolor1: #EBD494;
+    --maincolor2: #D7EBBA;
+    --accentcolor1: #FEFFBE;
+    --accentcolor2: #9AD2CB;
+}
+
+body{
+    background-color: var(--maincolor1);
+    min-height: 900px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#hero{
+    padding-top: 50px
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: var(--accentcolor1);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 70%; /* Full width */
+}
+
+.bg-custom{
+    background-color: var(--accentcolor1)
+}
+
+.nav-link.active{
+    color: #ffbb00 !important;
+    font-weight: 650;
+}
+
+.dzulfi{
+    font-weight:bolder;
+}
+
+.nama{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#aboutme{
+    background-color: var(--maincolor2) !important;
+    min-height: 450px;
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 60px;
+
+}
+
+.slogan{
+    font-size: 1.2rem;
+}
+
+.aboutmea{
+    font-size: 20px;
+}
+
+.aboutmeb{
+    font-size: 15px;
+    color: #4f6f6e;
+}
+
+#contact{
+    background-color: var(--maincolor2) !important;
+    min-height: 450px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.center{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container{
+    text-align: center;
+}
+
+#contact{
+    padding: 60px;
+}
+
+#project{
+    padding: 60px;
+}
